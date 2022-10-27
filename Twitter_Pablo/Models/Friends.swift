@@ -9,16 +9,20 @@ import SwiftUI
 
 struct MyData{
     static let friendsList: [Friend] = [
-        Friend(name: "Andres Cordon", message: "A ver si le damos un poco de caña", imageName: "nagato"),
-        Friend(name: "Daniel Morlans", message: "Sabeeeeeees???", imageName: "deidara"),
-        Friend(name: "Jose Romo", message: "Que chaval", imageName: "sasuke")
+        Friend(name: "Andres Cordon",  imageName: "nagato", conversation: [Message(message: "Menudo mongolo"), Message(message: "a ver si le damos un poco de caña")]),
+        Friend(name: "Daniel Morlans", imageName: "deidara", conversation: [Message(message: "Menudo mongolo"), Message(message: "a ver si le damos un poco de caña")]),
+        Friend(name: "Jose Romo", imageName: "sasuke", conversation: [Message(message: "Menudo mongolo"), Message(message: "a ver si le damos un poco de caña"),Message(message: "Menudo mongolo"),Message(message: "Menudo mongolo"),Message(message: "Menudo mongolo"),Message(message: "Menudo mongolo"),Message(message: "Menudo mongolo")])
        ]
 }
 
-struct Friend: Hashable, Identifiable{
+struct Friend: Identifiable{
     var id = UUID()
     var name: String
-    var message: String
     var imageName: String
+    var conversation: [Message]
+}
+struct Message:Hashable, Identifiable{
+    var id = UUID()
+    var message: String
 }
 
