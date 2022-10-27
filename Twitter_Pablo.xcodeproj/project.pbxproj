@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		33BDA021290ACC7B0066AE75 /* Twitter_PabloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA020290ACC7B0066AE75 /* Twitter_PabloApp.swift */; };
-		33BDA023290ACC7B0066AE75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA022290ACC7B0066AE75 /* ContentView.swift */; };
+		33BDA023290ACC7B0066AE75 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA022290ACC7B0066AE75 /* HomeView.swift */; };
 		33BDA025290ACC7D0066AE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BDA024290ACC7D0066AE75 /* Assets.xcassets */; };
 		33BDA028290ACC7D0066AE75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BDA027290ACC7D0066AE75 /* Preview Assets.xcassets */; };
+		33BDA030290ACDD80066AE75 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA02F290ACDD80066AE75 /* ContactsView.swift */; };
+		33BDA032290ACEB90066AE75 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA031290ACEB90066AE75 /* NotificationsView.swift */; };
+		33BDA034290ACEC90066AE75 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA033290ACEC90066AE75 /* SearchView.swift */; };
+		33BDA036290AD03B0066AE75 /* MandangaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA035290AD03B0066AE75 /* MandangaView.swift */; };
+		33BDA039290AD6AF0066AE75 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA038290AD6AF0066AE75 /* Friends.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33BDA01D290ACC7B0066AE75 /* Twitter_Pablo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_Pablo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BDA020290ACC7B0066AE75 /* Twitter_PabloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_PabloApp.swift; sourceTree = "<group>"; };
-		33BDA022290ACC7B0066AE75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33BDA022290ACC7B0066AE75 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		33BDA024290ACC7D0066AE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33BDA027290ACC7D0066AE75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33BDA02F290ACDD80066AE75 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		33BDA031290ACEB90066AE75 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		33BDA033290ACEC90066AE75 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		33BDA035290AD03B0066AE75 /* MandangaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandangaView.swift; sourceTree = "<group>"; };
+		33BDA038290AD6AF0066AE75 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,9 @@
 		33BDA01F290ACC7B0066AE75 /* Twitter_Pablo */ = {
 			isa = PBXGroup;
 			children = (
+				33BDA037290AD6980066AE75 /* Models */,
+				33BDA02E290ACDA40066AE75 /* Views */,
 				33BDA020290ACC7B0066AE75 /* Twitter_PabloApp.swift */,
-				33BDA022290ACC7B0066AE75 /* ContentView.swift */,
 				33BDA024290ACC7D0066AE75 /* Assets.xcassets */,
 				33BDA026290ACC7D0066AE75 /* Preview Content */,
 			);
@@ -65,6 +76,26 @@
 				33BDA027290ACC7D0066AE75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33BDA02E290ACDA40066AE75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33BDA022290ACC7B0066AE75 /* HomeView.swift */,
+				33BDA033290ACEC90066AE75 /* SearchView.swift */,
+				33BDA031290ACEB90066AE75 /* NotificationsView.swift */,
+				33BDA02F290ACDD80066AE75 /* ContactsView.swift */,
+				33BDA035290AD03B0066AE75 /* MandangaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33BDA037290AD6980066AE75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33BDA038290AD6AF0066AE75 /* Friends.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BDA023290ACC7B0066AE75 /* ContentView.swift in Sources */,
+				33BDA034290ACEC90066AE75 /* SearchView.swift in Sources */,
+				33BDA039290AD6AF0066AE75 /* Friends.swift in Sources */,
+				33BDA036290AD03B0066AE75 /* MandangaView.swift in Sources */,
+				33BDA030290ACDD80066AE75 /* ContactsView.swift in Sources */,
+				33BDA023290ACC7B0066AE75 /* HomeView.swift in Sources */,
 				33BDA021290ACC7B0066AE75 /* Twitter_PabloApp.swift in Sources */,
+				33BDA032290ACEB90066AE75 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
