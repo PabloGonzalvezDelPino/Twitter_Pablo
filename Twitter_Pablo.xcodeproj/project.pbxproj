@@ -17,6 +17,7 @@
 		33BDA036290AD03B0066AE75 /* MandangaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA035290AD03B0066AE75 /* MandangaView.swift */; };
 		33BDA039290AD6AF0066AE75 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA038290AD6AF0066AE75 /* Friends.swift */; };
 		33BDA03B290AD9640066AE75 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA03A290AD9640066AE75 /* ConversationView.swift */; };
+		33BDA03F290AFA960066AE75 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA03E290AFA960066AE75 /* SideMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		33BDA035290AD03B0066AE75 /* MandangaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandangaView.swift; sourceTree = "<group>"; };
 		33BDA038290AD6AF0066AE75 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		33BDA03A290AD9640066AE75 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		33BDA03E290AFA960066AE75 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				33BDA031290ACEB90066AE75 /* NotificationsView.swift */,
 				33BDA02F290ACDD80066AE75 /* ContactsView.swift */,
 				33BDA03A290AD9640066AE75 /* ConversationView.swift */,
+				33BDA03E290AFA960066AE75 /* SideMenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				33BDA030290ACDD80066AE75 /* ContactsView.swift in Sources */,
 				33BDA023290ACC7B0066AE75 /* HomeView.swift in Sources */,
 				33BDA021290ACC7B0066AE75 /* Twitter_PabloApp.swift in Sources */,
+				33BDA03F290AFA960066AE75 /* SideMenuView.swift in Sources */,
 				33BDA032290ACEB90066AE75 /* NotificationsView.swift in Sources */,
 				33BDA03B290AD9640066AE75 /* ConversationView.swift in Sources */,
 			);

@@ -23,7 +23,9 @@ struct ContactsView: View {
                                 }
                             }
                         }
-                    }.navigationTitle("Contacts")
+            .navigationTitle("Contacts")
+                    }
+        .background(Color.blue)
                 }
 }
 
