@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		338C16CB290C10A2008E8C58 /* Tweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C16CA290C10A2008E8C58 /* Tweets.swift */; };
 		33BDA021290ACC7B0066AE75 /* Twitter_PabloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA020290ACC7B0066AE75 /* Twitter_PabloApp.swift */; };
 		33BDA023290ACC7B0066AE75 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDA022290ACC7B0066AE75 /* HomeView.swift */; };
 		33BDA025290ACC7D0066AE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BDA024290ACC7D0066AE75 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		338C16CA290C10A2008E8C58 /* Tweets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweets.swift; sourceTree = "<group>"; };
 		33BDA01D290ACC7B0066AE75 /* Twitter_Pablo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_Pablo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BDA020290ACC7B0066AE75 /* Twitter_PabloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_PabloApp.swift; sourceTree = "<group>"; };
 		33BDA022290ACC7B0066AE75 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		338C16C9290C0FDB008E8C58 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		33BDA014290ACC7B0066AE75 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +74,7 @@
 		33BDA01F290ACC7B0066AE75 /* Twitter_Pablo */ = {
 			isa = PBXGroup;
 			children = (
+				338C16C9290C0FDB008E8C58 /* ViewModels */,
 				33BDA037290AD6980066AE75 /* Models */,
 				33BDA02E290ACDA40066AE75 /* Views */,
 				33BDA020290ACC7B0066AE75 /* Twitter_PabloApp.swift */,
@@ -100,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				33BDA038290AD6AF0066AE75 /* Friends.swift */,
+				338C16CA290C10A2008E8C58 /* Tweets.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +188,7 @@
 				33BDA034290ACEC90066AE75 /* SearchView.swift in Sources */,
 				33BDA039290AD6AF0066AE75 /* Friends.swift in Sources */,
 				33BDA036290AD03B0066AE75 /* MandangaView.swift in Sources */,
+				338C16CB290C10A2008E8C58 /* Tweets.swift in Sources */,
 				33BDA030290ACDD80066AE75 /* ContactsView.swift in Sources */,
 				33BDA023290ACC7B0066AE75 /* HomeView.swift in Sources */,
 				33BDA021290ACC7B0066AE75 /* Twitter_PabloApp.swift in Sources */,

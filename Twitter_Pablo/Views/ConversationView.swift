@@ -51,6 +51,7 @@ struct ConversationView: View {
             .toolbar{
                 ToolbarItemGroup(placement: .navigationBarLeading) {
                     HStack(alignment: .center, spacing: 5){
+                        
                         Image(friend.imageName)
                             .resizable()
                             .scaledToFill()
@@ -65,7 +66,6 @@ struct ConversationView: View {
                             .padding(.horizontal)
                             .font(.system(size: 80))
                     }
-                    
                 }
                 ToolbarItemGroup(placement: .navigationBarTrailing){
                     Button {
@@ -86,7 +86,6 @@ struct ConversationView: View {
             }
             .accentColor(.red)
         }
-        .background(Color.blue)
     }
 }
 

@@ -9,15 +9,12 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
-            Circle()
-                .frame(width: 250, height: 250)
-                .foregroundColor(.green)
-            Text("Home")
-                .foregroundColor(.white)
-                .font(.system(size: 60, weight: .bold))
+            List{
+                ForEach(TwitterHome.Tweets) { tweet in
+                    TweetCell(tweet: tweet)
+                    
+            }
         }
-        
     }
 }
 
