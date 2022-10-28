@@ -13,18 +13,21 @@ struct ContactsView: View {
     
     var body: some View {
         NavigationView {
-            List(selection: $selection){
-                ForEach(MyData.friendsList) { friend in
-                            HStack(alignment: .center, spacing: 50){
-                                NavigationLink(destination: ConversationView(friend: friend),  label: {
-                                    FriendCell(friend: friend)
-                                })
-                            }
+            ZStack{
+                Color.blue
+            
+                List(selection: $selection){
+                    ForEach(MyData.friendsList) { friend in
+                                HStack(alignment: .center, spacing: 50){
+                                    NavigationLink(destination: ConversationView(friend: friend),  label: {
+                                        FriendCell(friend: friend)
+                                    })
+                                }
+                    }
                 }
+                .navigationTitle("Contacts")
             }
-            .navigationTitle("Contacts")
         }
-        .background(Color.blue)
     }
 }
 

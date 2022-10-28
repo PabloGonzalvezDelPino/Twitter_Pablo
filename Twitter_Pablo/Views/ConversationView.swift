@@ -16,6 +16,7 @@ struct ConversationView: View {
     var body: some View {
         NavigationView{
             ZStack{
+                
                 VStack(alignment: .leading, spacing: 0){
                     
                     List(selection: $selection){

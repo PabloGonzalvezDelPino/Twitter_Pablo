@@ -9,15 +9,15 @@ import SwiftUI
 
 struct NotificationsView: View {
     var body: some View {
-        ZStack {
-            Circle()
-                .frame(width: 250, height: 250)
-                .foregroundColor(.green)
-            Text("MSG")
-                .foregroundColor(.white)
+        NavigationView{
+            Text("Notification List")
                 .font(.system(size: 60, weight: .bold))
+                .multilineTextAlignment(.center)
+        .navigationTitle("Notifications")
         }
+        
     }
+    
 }
 
 struct NotificationsView_Previews: PreviewProvider {

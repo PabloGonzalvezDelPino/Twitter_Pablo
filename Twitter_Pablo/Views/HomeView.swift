@@ -14,15 +14,17 @@ struct HomeView: View {
     var body: some View {
         NavigationView{
             ZStack{
-                List{
-                    ForEach(TwitterHome.Tweets) { tweet in
-                        TweetCell(tweet: tweet)
-                        
+                Color.blue
+                    List{
+                        ForEach(TwitterHome.Tweets) { tweet in
+                            TweetCell(tweet: tweet)
+                            
+                        }
                     }
-                }.toolbar{
+           .toolbar{
                     ToolbarItemGroup(placement: .navigationBarLeading) {
                        
-                        Image(TwitterHome.Tweets[0].imageName)
+                        Image("gaara")
                             .resizable()
                             .scaledToFill()
                             .frame( width: 50, height: 50)
@@ -37,6 +39,7 @@ struct HomeView: View {
                                 Label("Options", systemImage: "x.circle.fill")
                                 .font(.system(size: 30))
                                 .font(.title)
+                                
                             }else {
                                 Label("Options", systemImage: "line.3.horizontal")
                                 .font(.system(size: 30))
@@ -45,6 +48,8 @@ struct HomeView: View {
                         }
                     }
                 }
+            
+            
                 GeometryReader { _ in
                     HStack{
                         Spacer()
