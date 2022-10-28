@@ -19,7 +19,7 @@ struct ContactsView: View {
                                 NavigationLink(destination: ConversationView(friend: friend),  label: {
                                     FriendCell(friend: friend)
                                 })
-                                }
+                            }
                 }
             }
             .navigationTitle("Contacts")

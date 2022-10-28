@@ -13,9 +13,25 @@ struct SideMenuView: View {
             Text("Settings")
                 .font(.title)
                 .foregroundColor(.white)
+            Divider()
+                .frame(width: 200, height: 2)
+                .background(Color.white)
+                .padding(.horizontal, 16)
+                .blur(radius: 0.5)
+            
+            Link(destination: URL(string: "https://twitter.com/privacy")!){
+                Text("Privacy")
+            }
+            .font(.title)
+            .foregroundColor(.white)
+            
+            Text("QR")
+                .font(.title)
+                .foregroundColor(.white)
+            
             Spacer()
         }
-        .padding(32)
+        .padding(25)
         .background(Color.black)
         .edgesIgnoringSafeArea(.bottom)
     }

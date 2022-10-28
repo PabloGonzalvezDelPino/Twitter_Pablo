@@ -53,7 +53,7 @@ struct TweetCell: View {
                     .font(.subheadline)
                     .foregroundColor(.black)
                     .font(.system(size: 10))
-                HStack(spacing: 30){
+                HStack(spacing: 60){
                     Image(systemName: "message")
                     Image(systemName: "return")
                     Image(systemName: "heart")

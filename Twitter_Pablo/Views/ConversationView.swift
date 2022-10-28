@@ -77,14 +77,14 @@ struct ConversationView: View {
                             .font(.system(size: 30))
                             .font(.title)
                         }else {
-                            Label("Options", systemImage: "list.bullet.circle.fill")
+                            Label("Options", systemImage: "line.3.horizontal")
                             .font(.system(size: 30))
                             .font(.title)
                         }
                     }
                 }
             }
-            .accentColor(.red)
+            .accentColor(.blue)
         }
     }
 }
