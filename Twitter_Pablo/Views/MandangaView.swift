@@ -13,7 +13,6 @@ struct MandangaView: View {
             HomeView()
                 .tabItem{
                     Image(systemName: "house.fill")
-                        
                 }
             SearchView()
                 .tabItem{
