@@ -39,6 +39,7 @@ struct HomeView: View {
                                 Label("Options", systemImage: "x.circle.fill")
                                 .font(.system(size: 30))
                                 .font(.title)
+                                .accentColor(Color.white)
                                 
                             }else {
                                 Label("Options", systemImage: "line.3.horizontal")
